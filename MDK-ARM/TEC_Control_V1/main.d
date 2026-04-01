@@ -42,4 +42,6 @@ tec_control_v1\main.o: ../Core/Inc/i2c.h
 tec_control_v1\main.o: ../Core/Inc/tim.h
 tec_control_v1\main.o: ../Core/Inc/usart.h
 tec_control_v1\main.o: ../Core/Inc/gpio.h
+tec_control_v1\main.o: ../Core/Inc/oled.h
 tec_control_v1\main.o: D:\keil5\ARM\ARMCC\Bin\..\include\math.h
+tec_control_v1\main.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdio.h

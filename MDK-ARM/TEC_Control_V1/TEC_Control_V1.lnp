@@ -8,6 +8,7 @@
 "tec_control_v1\usart.o"
 "tec_control_v1\stm32g4xx_it.o"
 "tec_control_v1\stm32g4xx_hal_msp.o"
+"tec_control_v1\oled.o"
 "tec_control_v1\stm32g4xx_hal_adc.o"
 "tec_control_v1\stm32g4xx_hal_adc_ex.o"
 "tec_control_v1\stm32g4xx_ll_adc.o"
@@ -31,7 +32,7 @@
 "tec_control_v1\stm32g4xx_hal_uart.o"
 "tec_control_v1\stm32g4xx_hal_uart_ex.o"
 "tec_control_v1\system_stm32g4xx.o"
---strict --scatter "TEC_Control_V1\TEC_Control_V1.sct"
+--library_type=microlib --strict --scatter "TEC_Control_V1\TEC_Control_V1.sct"
 --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers
 --list "TEC_Control_V1.map" -o TEC_Control_V1\TEC_Control_V1.axf
